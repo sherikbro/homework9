@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="navbar">
+
+        <div class="nav-logo">
+            <!-- <img src="./images/LOGO (2).png" alt=""> -->
+            <h1 style="color: darkblue;" class="logoo"><i>HOME<span style="color: lightgrey;">WORK</span></i></h1>
+            <label for="menu" class="icons">
+                <i class="fa-solid fa-bars icon"></i>
+            </label>
+        </div>
+        
+        <div class="nav-link">
+            <input type="checkbox" id="menu">
+            <ul>
+                <li><a href="../index.html">Homework</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Reviews</a></li>
+            </ul>
+        </div>
+
+        <div class="nav-login">
+            <ul>
+                <li><a href="#">Get Started</a></li>
+            </ul>
+        </div>
+
+    </div>
+    <!-- / NAVIGATION -->
+
+
+    <div class="container">
+        <div class="register">
+            <form action="" class="register-form">
+                <fieldset class="register-fieldset">
+                    <legend><b><h1>Registratsiya</h1></b></legend>
+
+                    <div class="register-area">
+
+                        <div class="register-area__item"> 
+                            <label for="name"><i class="fa-solid fa-user-pen"></i>
+                            </label>
+                            <input type="text" id="name" placeholder="username...">
+                        </div>
+    
+                        <div class="register-area__item">
+                            <label for="tel"><i class="fa-solid fa-mobile"></i> </label>
+                            <input type="tel" id="tel" placeholder="telefon...">
+                        </div>
+    
+                        <div class="register-area__item">
+                            <label for="email"><i class="fa-solid fa-envelope"></i></label>
+                            <input type="email" placeholder="email" id="email">
+                        </div>
+    
+                        <div class="register-area__item">
+                            <label for="password"><i class="fa-solid fa-key"></i></label>
+                            <input type="password" placeholder="password" id="password">
+                            <i class="fa-solid fa-eye-slash"></i>
+                        </div>
+                    </div>
+
+                    <div class="button">
+                        <button type="submit" class="submit">Submit</button>
+                        <button type="reset" class="reset">Reset</button>
+                    </div>
+
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
