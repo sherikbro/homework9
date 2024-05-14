@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+.container1{
+    padding: 0 2%;
+}
+.container2{
+    padding: 0 4%;
+}
+button{
+    cursor: pointer;
+}
+.logo-right{
+    width: 100%;
+    height: 150px;
+    position: relative;
+    img{
+        position: absolute;
+        width: 100px;
+        right: 0;
+    }
+}

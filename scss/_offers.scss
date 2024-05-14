@@ -1,0 +1,56 @@
+.offers{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    text-align: center;
+    align-items: center;
+    .off-h1{
+        font-size: 56px;
+    }
+    .off-p{
+        font-size: 20px;
+        color: rgba(0, 0, 0, 0.56);
+        width: 50%;
+    }
+    .off-items{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        .off-item{
+            width: 17%;
+            // box-shadow: 1px 1px 10px grey;
+            border-radius: 10px;
+            .off-item__img{
+                img{
+                    width: 100%;
+                }
+            }
+            .off-item__info{
+                text-align: start;
+                padding: 30px 0;
+                display: flex;
+                flex-direction: column;
+                gap: 25px;
+                h2{
+                    font-size: 28px;
+                }
+                p{
+                    font-size: 20px;
+                }
+                .off-icon{
+                    display: flex;
+                    gap: 15%;
+                    .fa-location-dot{
+                        color: red;
+                    }
+                    .fa-star{
+                        color: gold;
+                    }
+                }
+            }
+        }
+    }
+}
